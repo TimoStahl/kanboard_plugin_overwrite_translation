@@ -1,0 +1,2 @@
+# kanboard_plugin_overwrite_translation
+Kanboard plugin to overwrite translationa
