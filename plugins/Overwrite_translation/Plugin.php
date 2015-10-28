@@ -1,9 +1,9 @@
 <?php
 
-namespace Plugin\Overwrite_translation;
+namespace Kanboard\Plugin\Overwrite_translation;
 
-use Core\Plugin\Base;
-use Core\Translator;
+use Kanboard\Core\Plugin\Base;
+use Kanboard\Core\Translator;
 
 class Plugin extends Base
 {
