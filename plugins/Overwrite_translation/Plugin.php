@@ -9,7 +9,7 @@ class Plugin extends Base
 {
     public function initialize()
     {
-        $this->on('session.bootstrap', function($container) {
+        $this->on('app.bootstrap', function($container) {
             Translator::load($container['config']->getCurrentLanguage(), __DIR__.'/Locale');
         });
     }
