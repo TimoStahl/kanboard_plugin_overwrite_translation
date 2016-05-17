@@ -9,9 +9,13 @@ class Plugin extends Base
 {
     public function initialize()
     {
-        $this->on('app.bootstrap', function($container) {
-            Translator::load($container['config']->getCurrentLanguage(), __DIR__.'/Locale');
-        });
+        // nothing
+    }
+    
+    public function onStartup()
+    {
+        // load Translation
+        Translator::load($this->language->getCurrentLanguage(), __DIR__.'/Locale');
     }
     
     public function getPluginName()
@@ -28,6 +32,6 @@ class Plugin extends Base
     }
     public function getPluginVersion()
     {
-        return '1.0.0';
+        return '1.0.28.0';
     }
 }
