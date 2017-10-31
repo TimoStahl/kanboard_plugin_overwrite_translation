@@ -1,11 +1,5 @@
 # Kanboard plugin to overwrite translations
 
-Installation
-------------
-
-- Copy all files into kanboard directory
-
-
 How to overwrite Kanboard translations?
 ---------------------------------------
 
