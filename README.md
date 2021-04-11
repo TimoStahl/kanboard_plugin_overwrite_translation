@@ -8,6 +8,8 @@ There is sub-directory for each language, by example for the French we have fr_F
 A translation is a PHP file that returns an Array with a key-value pairs
 The key is the original text in english and the value is the translation for the corresponding language
 
+Because this plugin is most likely the last one to get executed within kanboard, you can also overwrite the translations that come with other plugins
+
 Author
 ------
 
@@ -21,5 +23,5 @@ Installation
 
 or
 
-- Create a folder **plugins/Overwrite_translation**
+- Create a folder **plugins/zzzzOverwrite_translation**
 - Copy all files under this directory
