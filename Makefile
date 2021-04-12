@@ -1,5 +1,5 @@
-plugin=Overwrite_translation
-version=1.0.33.1
+plugin=zzzzOverwrite_translation
+version=1.0.34.0
 
 all:
 	@ echo "Build archive for plugin ${plugin} version=${version}"

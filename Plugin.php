@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanboard\Plugin\Overwrite_translation;
+namespace Kanboard\Plugin\zzzzOverwrite_translation;
 
 use Kanboard\Core\Plugin\Base;
 use Kanboard\Core\Translator;
@@ -29,7 +29,7 @@ class Plugin extends Base {
     }
 
     public function getPluginVersion() {
-        return '1.0.33.0';
+        return '1.0.34.0';
     }
 
     public function getPluginHomepage() {
